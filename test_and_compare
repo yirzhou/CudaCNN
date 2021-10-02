@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./gpu_exec && python3 compare.py

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 generate.py && ./cpu_exec && ./test_and_compare

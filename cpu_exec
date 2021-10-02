@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cargo run --release -- cpu input/cnn.csv input/in.csv output/out.csv
+echo "CPU execution done."

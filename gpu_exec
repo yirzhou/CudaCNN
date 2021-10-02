@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cargo build --release 
+./target/release/lab3 cuda input/cnn.csv input/in.csv output/out_cuda.csv
+echo "GPU execution done."
